@@ -41,3 +41,6 @@ rp.defaults = function () {
   request.initParams = lib.initParams
   return rp
 }
+
+
+module.exports(rp);
