@@ -5,9 +5,14 @@ As of *Feb 11th 2020*, **request** is fully deprecated. No new changes are expec
 
 The simplified and litest HTTP request client 'request' with Promise support.
 
-
-const rp= require('.request-promise/index.js');
 ```
+  npm i request --save
+```
+
+
+```
+const rp= require('.request-promise/index.js');
+
 rp('https://booksmotion.com').then(data=>{
   console.log(data);
  }).catch(err=>{
