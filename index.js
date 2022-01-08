@@ -43,4 +43,4 @@ rp.defaults = function () {
 }
 
 
-module.exports(rp);
+module.exports= rp;
